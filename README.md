@@ -1,4 +1,4 @@
-# NodeBB Office LDAP authentication Plugin
+# NodeBB LDAP authentication Plugin
 
 This plugin connects LDAP server without admin credentials but using user given username and password at the time of login.
 
@@ -8,7 +8,7 @@ Please turn off *registration process* as this makes a login / creates a user ba
 
 ## Installation
 
-    npm install nodebb-plugin-office-ldap
+    npm install nodebb-plugin-node-ldap
 
 ## Screenshots
 
