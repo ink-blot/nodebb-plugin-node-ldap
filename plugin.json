@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-node-ldap",
+    "id": "nodebb-plugin-node-ldap",
     "name": "Node LDAP",
     "description": "An LDAP plugin",
 	"url": "https://github.com/ink-blot/nodebb-plugin-node-ldap",
