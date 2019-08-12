@@ -1,7 +1,7 @@
 <form class="ldap-settings form-horizontal" onsubmit="return false;">
   <div class="row">
     <div class="col-md-12 col-sm-12 col-lg-12">
-      <h1 class="page-header"><i class="fa fa-cog"></i> Office LDAP Settings</h1>
+      <h1 class="page-header"><i class="fa fa-cog"></i> LDAP Settings</h1>
       <div class="col-lg-9 col-md-9 col-sm-8">
         <div class="well well-sm">
           <h4 class="page-header">Server Settings</h4>
@@ -27,9 +27,15 @@
             <div class="form-group col-md-12 col-sm-12">
               <label class="col-sm-3 control-label" for="filter">Filter</label>
               <div class="col-sm-9">
-                <input type="text" id="filter" required name="filter" title="Filter" class="form-control" placeholder="sAMAccountName">
+                <input type="text" id="filter" required name="filter" title="Filter" class="form-control" placeholder="cn">
               </div>
             </div>
+            <div class="form-group col-md-12 col-sm-12">
+              <label class="col-sm-3 control-label" for="dname">User Name Field</label>
+              <div class="col-sm-9">
+                <input type="text" id="dname" required name="dname" title="User Name Field" class="form-control" placeholder="displayName">
+              </div>
+            </div>            
           </div>
         </div>
         <div class="well well-sm">
@@ -52,12 +58,13 @@
     </div>
   </div>
 </form>
+
 <script>
     require(['settings'], function(Settings) {
-        Settings.load('officeldap', $('.ldap-settings'));
-
+        Settings.load('nodeldap', $('.ldap-settings'));
         $('#save').on('click', function() {
-            Settings.save('officeldap', $('.ldap-settings'));
+            Settings.save('nodeldap', $('.ldap-settings'));
         });
+        
     });
 </script>
