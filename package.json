@@ -16,6 +16,17 @@
     "name": "smartameer",
     "email": "smartameer@icloud.com"
   },
+  "contributors": [
+    {
+      "name": "ink-blot",
+      "url": "https://github.com/ink-blot"
+    },
+    {
+      "name": "vishnu667",
+      "email": "vishnu667@gmail.com",
+      "url": "http://vishnu667.github.io/"
+    }    
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "nbbpm": {
