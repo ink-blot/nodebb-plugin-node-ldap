@@ -9,13 +9,13 @@
             <div class="form-group col-md-12 col-sm-12">
               <label class="col-sm-3 control-label" for="server">Server URL</label>
               <div class="col-sm-9">
-                <input type="text" id="server" required name="server" title="LDAP server" class="form-control" placeholder="e.g. : ldap://example.ldap.com">
+                <input type="text" id="server" required name="server" title="LDAP server" class="form-control" placeholder="ldap://example.ldap.com">
               </div>
             </div>
             <div class="form-group col-md-12 col-sm-12">
               <label class="col-sm-3 control-label" for="port">Server Port</label>
               <div class="col-sm-9">
-                <input type="number" id="port" required name="port" title="Port Number" class="form-control" placeholder="e.g. : 389">
+                <input type="number" id="port" required name="port" title="Port Number" class="form-control" placeholder="389">
               </div>
             </div>
             <div class="form-group col-md-12 col-sm-12">
@@ -31,11 +31,23 @@
               </div>
             </div>
             <div class="form-group col-md-12 col-sm-12">
-              <label class="col-sm-3 control-label" for="dname">User Name Field</label>
+              <label class="col-sm-3 control-label" for="dname">User Name</label>
               <div class="col-sm-9">
-                <input type="text" id="dname" required name="dname" title="User Name Field" class="form-control" placeholder="displayName">
+                <input type="text" id="dname" required name="dname" title="User Name" class="form-control" placeholder="displayName">
               </div>
-            </div>            
+            </div>           
+            <div class="form-group col-md-12 col-sm-12">
+              <label class="col-sm-3 control-label" for="dname">Given Name</label>
+              <div class="col-sm-9">
+                <input type="text" id="gname" required name="gname" title="Given Name" class="form-control" placeholder="givenName">
+              </div>
+            </div>         
+            <div class="form-group col-md-12 col-sm-12">
+              <label class="col-sm-3 control-label" for="dname">Surname</label>
+              <div class="col-sm-9">
+                <input type="text" id="sname" required name="sname" title="Surname" class="form-control" placeholder="sn">
+              </div>
+            </div>             
           </div>
         </div>
         <div class="well well-sm">
