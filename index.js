@@ -301,7 +301,7 @@
                             if (pattern.test(username)) {
                                 username = username.replace(pattern, '');
                             }                           
-                            var fullnamez=profile.givenName+' '+profile.sn;
+                            var fullnamez=profile[master_config.gname]+' '+profile[master_config.sname];
                             return user.create({username: displayname, fullname: fullnamez, email: email}, function (err, uid) {
                                 if (err) {
                                     return callback(err);
