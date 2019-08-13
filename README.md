@@ -1,4 +1,4 @@
-# NodeBB LDAP authentication Plugin
+# NodeBB LDAP Authentication Plugin
 
 This plugin was modified from https://github.com/smartameer/nodebb-plugin-office-ldap to allow for authentication using an OpenLDAP server.
 
