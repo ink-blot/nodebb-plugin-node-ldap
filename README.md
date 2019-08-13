@@ -2,7 +2,7 @@
 
 This plugin was modified from https://github.com/smartameer/nodebb-plugin-office-ldap to allow for authentication using an OpenLDAP server.
 
-The plugin allows a user to log in to NodeBB using credentials stored in the LDAP server. If the user doesn't currently exist in NodeBB, it will be created using the details retrieved from the LDAP server. Once installed, settings can be changed within the 'LDAP settings' menu in the 'Plugins' tab of the ACP
+The plugin allows a user to log in to NodeBB using credentials stored in the LDAP server. If the user doesn't currently exist in NodeBB, it will be created using the details retrieved from the LDAP server. Once installed, settings can be changed within the 'LDAP settings' menu in the 'Plugins' tab of the ACP (you may need to refresh the page for the tab to become visible).
 
 Please disable user registration in the NodeBB ACP (Settings>User>User Registraion>No Registration) when using this plugin.
 
