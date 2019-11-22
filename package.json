@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/ink-blot/nodebb-plugin-node-ldap"
   },
+  "nbbpm": {
+    "compatibility": ">1.0.0"
+  },  
   "keywords": [
     "nodebb",
     "plugin",
