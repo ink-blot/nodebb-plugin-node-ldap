@@ -14,8 +14,10 @@ Features of the plugin include:
 * on first login the user 'Full Name' in NodeBB is generated using the 'Given Name' and 'Surname' fields  chosen in the 'LDAP settings' menu and retrieved from the LDAP server.
 
 ## Installation
-
+The easiest way to install the plugin is via the Admin Control Panel (ACP - usually loacated at https://your.domain.name/admin/). Navigate to Plugins>Install Plugins>Find Plugins and search for 'nodebb-plugin-node-ldap'. Install the plugin, activate it and rebuild and restart NodeBB using the ACP Dashboard. Alternatively, the plugin can be manually installed from the command line as follows:
     npm install nodebb-plugin-node-ldap
+It is possible that your linux distribution may be missing some dependencies for this plugin to work. If that is the case, try:
+    sudo apt-get update && apt-get install -y ldap-utils dnsutils
 
 ## Screenshots
 
